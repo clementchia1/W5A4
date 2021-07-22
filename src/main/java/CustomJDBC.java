@@ -140,7 +140,7 @@ public class CustomJDBC {
 		// 4. Verify this by getting a list of employees
 		myRs = myStmt.executeQuery("Show tables");
 
-		// 5. Process the result set 
+		// 5. Process the result set
 	      while(myRs.next()) {
 	         System.out.print(myRs.getString(1));
 	         System.out.println();
